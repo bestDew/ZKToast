@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZKToast"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A simple toast."
   s.description  = <<-DESC
 	      Easy to use toast.
@@ -11,10 +11,7 @@ Pod::Spec.new do |s|
   s.author       = { "bestdew" => "a_pple0429@163.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/bestDew/ZKToast.git", :tag => "#{s.version}" }
-  s.source_files  = "ZKToast", "ZKToast/**/*.{h,m}"
-
-  # s.public_header_files = "Classes/**/*.h"
-
+  s.source_files  = "ZKToast", "ZKToast/*.{h,m}"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
