@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author       = { "bestdew" => "a_pple0429@163.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/bestDew/ZKToast.git", :tag => "#{s.version}" }
-  s.source_files  = "ZKToast"
+  s.source_files  = "ZKToast", "ZKToast/*.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
 
